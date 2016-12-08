@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:clickable="true" >
+
+    <!-- 상단 환경설정 타이틀 -->
+
+    <RelativeLayout
+        android:id="@+id/setting_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/setting_header"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.7"
+                android:background="@android:color/black" >
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/setting_title"
+                android:textColor="@android:color/white" />
+
+            <ImageButton
+                android:id="@+id/setting_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@android:drawable/ic_menu_close_clear_cancel" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/setting_list"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/setting_header"
+            android:layout_marginLeft="80dp"
+            android:divider="#ffffff"
+            android:dividerHeight="0px" >
+        </ListView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/setting_detail_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/setting_detail_header"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.7"
+                android:background="@android:color/black" >
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/setting_detail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/setting_title"
+                android:textColor="@android:color/white" />
+
+            <ImageButton
+                android:id="@+id/setting_detail_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@android:drawable/ic_menu_close_clear_cancel" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/setting_detail_list"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/setting_detail_header"
+            android:layout_marginLeft="80dp"
+            android:divider="#ffffff"
+            android:dividerHeight="0px" >
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

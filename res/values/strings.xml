@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MYCamera</string>
+    
+    <string name="no_hdr">해당 기기는 지원하지 않습니다.</string>
+    
+    <string name="setting_title">환경설정</string>
+    <string name="setting_wb">화이트밸런스</string>
+	<string name="setting_br">밝기조절</string>
+	<string name="setting_switch">전후면전환</string>
+	<string name="setting_metering">측광조정</string>
+	<string name="setting_flash">플래시</string>
+	<string name="setting_timer">셀프타이머</string>
+	<string name="setting_grid">그리드</string>
+	<string name="setting_shutter">셔터위치이동</string>
+	<string name="setting_zoom">줌</string>
+	<string name="setting_cam">동영상</string>
+	<string name="setting_mode">모드</string>
+	<string name="setting_photo">사진</string>
+	<string name="setting_loc">위치</string>
+	<string name="setting_lang">지원언어</string>
+	<string name="setting_save">저장위치</string>
+	<string name="setting_gyro">자이로</string>
+	<string name="setting_iso">ISO</string>
+	<string name="setting_hdr">HDR</string>
+	<string name="setting_sound">셔터음</string>
+	<string name="setting_confirm">촬영 후 확인</string>
+	<string name="setting_theme">테마설정</string>
+	<string name="setting_share">공유설정</string>
+	<string name="setting_app">앱정보</string>
+	
+	<string name="setting_save_phone">내카메라</string>
+	<string name="setting_save_external">SD카드</string>
+	
+	<string name="setting_switch_f">전면</string>
+	<string name="setting_switch_r">후면</string>
+	
+	<string name="setting_metering_m">다분할</string>
+	<string name="setting_metering_c">중앙</string>
+	<string name="setting_metering_s">스팟</string>
+	
+
+	<string name="setting_timer_3s">3</string>
+	<string name="setting_timer_5s">5</string>
+	<string name="setting_timer_10s">10</string>
+	
+	
+	<string name="setting_common_on">켜짐</string>
+	<string name="setting_common_off">꺼짐</string>
+	<string name="setting_common_auto">자동</string>
+	
+	<string name="setting_theme_d">기본</string>
+	
+	<string name="setting_shutter_l">가로</string>
+	<string name="setting_shutter_r">세로</string>
+	
+	<string name="setting_mode_portrait">인물</string>
+	<string name="setting_mode_landscape">풍경</string>
+	<string name="setting_mode_sports">스포츠</string>
+	<string name="setting_mode_night">야간</string>
+	<string name="setting_mode_beauty">뷰티</string>
+	<string name="setting_mode_food">음식</string>
+	
+	<string name="setting_wb_incandescent">백열등</string>
+	<string name="setting_wb_fluorescent">형광등</string>
+	<string name="setting_wb_daylight">태양광</string>
+	<string name="setting_wb_cloudydaylight">흐린날</string>
+	
+	<string name="setting_app_ask">문의하기</string>
+	<string name="setting_app_guide">가이드</string>
+	<string name="setting_app_sw_info">소프트웨어 정보</string>
+	<string name="setting_app_google_play">구글플레이</string>
+</resources>
